@@ -1,28 +1,82 @@
 .speech
 {
+    font-family: Arial, sans-serif;
     color:black;
     font-size: medium;
 }
 .direction
 {
+    font-family: Times New Roman, serif;
     background-color:lightgreen;
     color: black;   
     font-size:small;
+    transition: background-color 0.3s, color 0.3s;
 }
 .name {
     color:darkblue;
 }
 .direction:hover
 {
+    background-color: maroon;
     color:darkorange;
     background-color:blueviolet;
 }
 .Billing {
-    color:darkmagenta;
+    color:magenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .Hovstad {
-    color:purple;
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
 }
 .Dr.Stockmann {
-    color:indigo;
+    color:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+table {
+    border-color: blue;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th {
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: firebrick;
+    height: 50px;
+    color: white;
+    background-color: rgb(54, 150,200 );
+  }
+  td {
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: firebrick;
+    background-color: blanchedalmond;
+    height: 40px;
+  }
+
+  tr:hover {background-color: lightskyblue;}
+
+  .Billing:hover{
+    font-size: medium;
+    color: yellow;
+    text-shadow: 0 0 20px rgb(145, 245, 100);
+    border-style: dashed;
+    border-radius: 15px;
+  }
+  .Hovstad:hover{
+    font-size: medium;
+    color: blueviolet;
+    text-shadow: 0 0 20px rgb(14, 135, 190);
+    border-style: double;
+    border-radius: 10px;
+  }
+  .Dr.Stockmann:hover{
+    font-size: medium;
+    color: red;
+    text-shadow: 0 0 20px rgb(245, 25, 130);
+    border-style: dotted;
+    border-radius: 15px;
+  }
