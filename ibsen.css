@@ -73,10 +73,10 @@ table {
     border-style: double;
     border-radius: 10px;
   }
-  .Dr.Stockmann:hover{
+  .DrStockmann:hover{
     font-size: medium;
-    color: red;
-    text-shadow: 0 0 20px rgb(245, 25, 130);
-    border-style: dotted;
+    color: blue;
+    text-shadow: 0 0 20px rgb(15, 225, 130);
+    border-style: double;
     border-radius: 15px;
   }
